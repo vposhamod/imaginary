@@ -3,6 +3,15 @@
 
 [[projects]]
   branch = "master"
+  digest = "1:581f038968886934d62bdc446d8e556f4d6091eb9f268c2f56eca4b0b10dd7e4"
+  name = "github.com/acaloiaro/bimg"
+  packages = ["."]
+  pruneopts = ""
+  revision = "2ded5a20d9cb4685e6c8cc3ef827235af1d814af"
+  source = "github.com/acaloiaro/bimg"
+
+[[projects]]
+  branch = "master"
   digest = "1:43987212a2f16bfacc1a286e9118f212d60c136ed53c6c9477c18921db53140b"
   name = "github.com/hashicorp/golang-lru"
   packages = [
@@ -19,14 +28,6 @@
   pruneopts = ""
   revision = "7af7a1e09ba336d2ea14b1ce73bf693c6837dbf6"
   version = "v1.2"
-
-[[projects]]
-  digest = "1:7f43e2481f54c8430be68af817f608b6b83c27b537a954e2713b1b7f97d54ae1"
-  name = "gopkg.in/h2non/bimg.v1"
-  packages = ["."]
-  pruneopts = ""
-  revision = "4b9abdb945893c295f0e58b6803102f23e061ad0"
-  version = "v1.0.19"
 
 [[projects]]
   digest = "1:fa565368b1ccf94adc18bbcfa553a6451a0828a711bbd90b1df33825a07cec02"
@@ -62,8 +63,8 @@
   analyzer-name = "dep"
   analyzer-version = 1
   input-imports = [
+    "github.com/acaloiaro/bimg",
     "github.com/rs/cors",
-    "gopkg.in/h2non/bimg.v1",
     "gopkg.in/h2non/filetype.v0",
     "gopkg.in/throttled/throttled.v2",
     "gopkg.in/throttled/throttled.v2/store/memstore",

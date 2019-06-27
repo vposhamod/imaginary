@@ -3,7 +3,7 @@ package main
 import (
 	"strings"
 
-	"gopkg.in/h2non/bimg.v1"
+	"github.com/acaloiaro/bimg"
 )
 
 // ExtractImageTypeFromMime returns the MIME image type.

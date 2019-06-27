@@ -12,7 +12,7 @@ import (
 	"strings"
 	"testing"
 
-	"gopkg.in/h2non/bimg.v1"
+	"github.com/acaloiaro/bimg"
 )
 
 func TestIndex(t *testing.T) {

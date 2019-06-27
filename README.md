@@ -551,6 +551,7 @@ Image measures are always in pixels, unless otherwise indicated.
 - **minampl**     `float`  - Minimum amplitude of the gaussian filter to use when blurring an image. Default: Example: `0.5`
 - **operations**  `json`   - Pipeline of image operation transformations defined as URL safe encoded JSON array. See [pipeline](#get--post-pipeline) endpoints for more details.
 - **sign**        `string` - URL signature (URL-safe Base64-encoded HMAC digest)
+- **pagenum**     `int`    - To select page number when using multi page PDFs - starting with 1
 
 #### GET /
 Content-Type: `application/json`
@@ -794,8 +795,8 @@ Accepts: `image/*, multipart/form-data`. Content-Type: `image/*`
 
 ##### Allowed params
 
-- width `int`
-- height `int`
+- width `int` `required`
+- height `int` `required`
 - quality `int` (JPEG-only)
 - compression `int` (PNG-only)
 - type `string`
